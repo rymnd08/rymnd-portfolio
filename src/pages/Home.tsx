@@ -22,7 +22,7 @@ const Home = () => {
             <div className="max-w-5xl ">
                 <div className="grid grid-cols-1 lg:grid-cols-2 place-content-center place-items-center gap-8 h-screen " id="home">
                     <div className="fade-in-left  w-full flex justify-center">
-                        {image && <img src={image} alt="" className="h-[320px] rounded-full border-2 border-slate-300 hover:scale-110 transition ease duration-[1s]" />}
+                    <img src="/react.png" alt="" className="h-[320px] rounded-full border-2 border-slate-300 hover:scale-110 transition ease duration-[1s]" />
                     </div>
                     <div className="text-center fade-in-right ">
                         <h2 className="text-3xl lg:text-5xl font-bold leading-[50px] lg:leading-[80px] p-8 lg:p-0 hover:scale-110 transition ease duration-[1s]">
@@ -32,24 +32,18 @@ const Home = () => {
                 </div>
 
                 <div className="h-screen border border-transparent relative " id="skills">
-                    <h3 className="absolute top-20 w-full  text-3xl font-bold text-white px-4 lg:px-0">
-                        Skills
-                    </h3>
                     <Skills />
                 </div>
 
                 <div className="h-screen border border-transparent relative " id="projects">
-                    <h3 className="absolute top-20 w-full border text-3xl font-bold text-white">
-                        Projects
-                    </h3>
+                    <div className="mt-20">
+                        <h2 className="text-white text-3xl font-bold">Projects</h2>
+                    </div>
                 </div>
 
-                <div className="h-screen border border-transparent relative  " id="about-me">
-                    <h3 className="absolute top-20 w-full border text-3xl font-bold text-white">
-                        About me
-                    </h3>
+                <div className="h-screen border border-transparent relative " id="skills">
+                    <Skills />
                 </div>
-
             </div>
             
         </div>

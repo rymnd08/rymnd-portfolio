@@ -9,7 +9,7 @@ const Skills  = () => {
         {id: 1, name: 'Javascript', imgURL: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
         {id: 2, name: 'TypeScript', imgURL: 'https://icons.veryicon.com/png/o/business/vscode-program-item-icon/typescript-def.png'},
         {id: 3, name: 'Angular', imgURL: 'https://miro.medium.com/v2/resize:fit:2680/1*jlg3PXZ6PYdUGy40tXybKw.gif'},
-        {id: 4, name: 'React', imgURL: '../../public/react.png'},
+        {id: 4, name: 'React', imgURL: '/react.png'},
         {id: 5, name: 'tailwindcss', imgURL: 'https://www.svgrepo.com/show/374118/tailwind.svg'},
         {id: 6, name: 'Bootstrap', imgURL: 'https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png'},
         {id: 7, name: 'PHP', imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png'},
@@ -20,15 +20,21 @@ const Skills  = () => {
     ]
 
     return ( 
-        <div className="grid grid-cols-2 lg:grid-cols-3 place-content-center h-full gap-4 px-4 lg:px-0">
-            {skills.map(skill => (
-                <div key={skill.id} className="  rounded flex items-center gap-4 hover:text-white hover:cursor-pointer hover:scale-110 transition ease duration-[200ms] hover:font-bold">
-                    <div className=" w-[75px] h-[75px] lg:w-[100px] lg:h-[100px] " >
-                        <img src={skill.imgURL} alt="" className={`object-contain h-full w-full rounded`} />
+        <div className="mt-20">
+            <h3 className="text-3xl font-bold text-white  mb-10">
+                Skills
+            </h3>
+            <div className="grid grid-cols-2 lg:grid-cols-3 place-content-center gap-4 px-4 lg:px-0">
+                
+                {skills.map(skill => (
+                    <div key={skill.id} className="  rounded flex items-center gap-4 hover:text-white hover:cursor-pointer hover:scale-110 transition ease duration-[200ms] hover:font-bold">
+                        <div className=" w-[75px] h-[75px] lg:w-[100px] lg:h-[100px] " >
+                            <img src={skill.imgURL} alt="" className={`object-contain h-full w-full rounded`} />
+                        </div>
+                        <h3 className="text-xl"> {skill.name} </h3>
                     </div>
-                    <h3 className="text-xl"> {skill.name} </h3>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
      );
 }
