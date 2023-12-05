@@ -21,9 +21,9 @@ const Skills  = () => {
     ]
 
     return ( 
-        <div className="mt-20">
-            <h3 className="text-3xl font-bold text-white mb-10 lg:mb-0 px-4 lg:px-0">
-                    Skills
+        <div className="mt-20 min-h-screen border border-transparent" id="skills">
+            <h3 className="text-3xl font-bold text-white mb-10 lg:mb-0 px-4 lg:px-0 mt-20">
+                Skills
             </h3>
             <div className="grid grid-cols-2 lg:grid-cols-3 lg:min-h-[75vh] px-4 place-content-center gap-4 lg:gap-10 lg:px-0">
                 

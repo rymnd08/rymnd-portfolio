@@ -11,13 +11,13 @@ const Projects = () => {
     ]
 
     return ( 
-        <div className="mt-20">
+        <div className="min-h-screen border border-transparent mt-20" id="projects">
 
-            <h2 className="text-white text-3xl font-bold">Simple Projects</h2>
+            <h2 className="text-white text-3xl font-bold mt-20">Simple Projects</h2>
 
             <div className="div grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center place-items-center mt-6 min-h-[75vh] gap-10">
                 {projects.map(project => (
-                    <div className="project-card border rounded  max-h-[200px] aspect-[16/9] p-4 hover:text-white hover:cursor-pointer hover:scale-110 transition ease duration-[200ms] hover:font-bold">
+                    <div className="project-card border rounded  max-h-[200px] aspect-[16/9] p-4 hover:text-white hover:cursor-pointer hover:scale-110 transition ease duration-[200ms] hover:font-bold" key={project.id}>
                         <h3 className="mb-3"> {project.title} </h3>
                         <img src={project.url} alt={project.url.replace(/.png/i, '')} className="object-cover rounded" />
                         <div className="flex justify-around mt-3">
