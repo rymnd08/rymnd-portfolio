@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return ( 
-        <div className="min-h-screen border border-transparent mb-[200px] lg:mb-[100px]" id="about-me">
+        <div className="min-h-screen border border-transparent mb-[200px] lg:mb-[100px] px-4 lg:px-0" id="about-me">
             <h2 className="text-white text-3xl font-bold mt-20 mb-10">About Me</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center lg:place-items-start place-content-center min-h-[75vh] gap-20">
 
@@ -25,7 +25,7 @@ const AboutMe = () => {
                 </div>
 
                 <div className="md:flex gap-4 items-center hover:scale-110 transition ease duration-200 p-4">
-                    <img src="https://cdn.logojoy.com/wp-content/uploads/20230921104408/Facebook-logo-600x319.png" 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" 
                     className="mx-auto lg:mx-0 mb-3 lg:mb-0 h-[100px] w-[100px] aspect-[1/1] object-cover rounded-[20px]" alt="Facebook logo" />
                     <h3 className="text-2xl font-semibold  underline">
                         <a href="https://www.facebook.com/rymnd0800" 

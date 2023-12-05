@@ -11,7 +11,7 @@ const Projects = () => {
     ]
 
     return ( 
-        <div className="min-h-screen border border-transparent mt-20" id="projects">
+        <div className="min-h-screen border border-transparent mt-20 px-4 lg:px-0" id="projects">
 
             <h2 className="text-white text-3xl font-bold mt-20">Simple Projects</h2>
 
