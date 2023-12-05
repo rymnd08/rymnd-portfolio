@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return ( 
-        <div className="min-h-screen border border-transparent" id="about-me">
+        <div className="min-h-screen border border-transparent mb-[200px] lg:mb-[100px]" id="about-me">
             <h2 className="text-white text-3xl font-bold mt-20 mb-10">About Me</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center lg:place-items-start place-content-center min-h-[75vh] gap-20">
 
