@@ -28,22 +28,17 @@ const Home = () => {
                     </div>
                     <div className="text-center fade-in-right ">
                         <h2 className="text-3xl lg:text-5xl font-bold leading-[50px] lg:leading-[80px] p-8 lg:p-0 hover:scale-110 transition ease duration-[1s]">
-                            Aspiring Developer, Transforming Ideas into Code – Line by Line, Pixel by Pixel
+                            Hello I'm Raymund, aspiring Developer. Let's transorm ideas into code.
                         </h2>
                     </div>
                 </div>
 
-                <div className="h-screen border border-transparent relative " id="skills">
+                <div className="min-h-screen border border-transparent relative " id="skills">
                     <Skills />
                 </div>
 
                 <div className="min-h-screen border border-transparent relative " id="projects">
-                    <div className="mt-20">
-                        <h2 className="text-white text-3xl font-bold">Simple Projects</h2>
-                    </div>
-
                     <Projects />
-                    
                 </div>
 
                 <div className="h-screen border border-transparent relative " id="about-me">
