@@ -12,7 +12,7 @@ const Navbar = () => {
     return ( 
         <div className="w-full text-slate-300 font-bold  fixed top-0 bg-dark bg-opacity-80 flex justify-center z-50 px-4">
             <div className="flex items-center grow justify-between max-w-5xl py-4 px-4 lg:px-0">
-            <h3 className=""><Link to="home" smooth={true} duration={500} className='hover:cursor-pointer'>{'<Rymnd />'} </Link></h3>
+            <h3 className=""><Link to="home" smooth={true} duration={500} className='hover:cursor-pointer hover:text-white'>{'<Rymnd />'} </Link></h3>
             <ul className={'gap-3 md:flex hidden'}>
                 <li className="py-1 px-3 ">
                     <Link to="home" smooth={true} duration={500} className='hover:cursor-pointer hover:text-white'>Home</Link>
