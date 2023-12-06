@@ -6,7 +6,7 @@ const Main = () => {
             </div>
             <div className="text-center fade-in-right ">
                 <h2 className="text-3xl lg:text-5xl font-semibold leading-[50px] lg:leading-[80px] p-8 lg:p-0 hover:scale-110 transition ease duration-[1s]">
-                    Hello I'm Raymund, aspiring <span className="text-white font-bold">developer</span>. Let's transorm ideas into code.
+                    Hello I'm Raymund, aspiring <span className="text-white font-bold">developer</span>. Let's transform ideas into code.
                 </h2>
             </div>
         </div>
