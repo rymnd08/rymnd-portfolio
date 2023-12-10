@@ -2,10 +2,11 @@
 const Projects = () => {
 
     const projects = [
-        {id: 1, title: 'Angular with firebase auth', url: '/angular.PNG', github: 'https://github.com/rymnd08/job-search', live: 'https://job-search-3ee65.web.app'},
-        {id: 2, title: 'Tried laravel out of curiosity', url: '/LARAVEL.PNG', github: 'https://github.com/rymnd08/learn-laravel', live: ''},
-        {id: 4, title: 'First project learning tailwind', url: '/tailwind.png', github: 'https://github.com/rymnd08/food-app-tailwind', live: 'https://food-project-7aa2d.web.app'},
-        {id: 3, title: 'First react app', url: '/todo.PNG', github: 'https://github.com/rymnd08/first-react', live: 'https://react-todo-2f61d.web.app'},
+        {id: 1, title: 'Angular with ng-bootstrap', url: '/ng-boostrap.PNG', github: 'https://github.com/rymnd08/rabbit-shop', live: 'https://rabbit-shop-e2701.firebaseapp.com/'},
+        {id: 2, title: 'Indeed clone (angular)', url: '/angular.PNG', github: 'https://github.com/rymnd08/job-search', live: 'https://job-search-3ee65.web.app'},
+        {id: 3, title: 'First laravel', url: '/LARAVEL.PNG', github: 'https://github.com/rymnd08/learn-laravel', live: ''},
+        {id: 4, title: 'First tailwind', url: '/tailwind.png', github: 'https://github.com/rymnd08/food-app-tailwind', live: 'https://food-project-7aa2d.web.app'},
+        // {id: 3, title: 'First react app', url: '/todo.PNG', github: 'https://github.com/rymnd08/first-react', live: 'https://react-todo-2f61d.web.app'},
         {id: 5, title: 'Simple crud using react', url: '/react_proj.PNG', github: 'https://github.com/rymnd08/simple-react-crud', live: 'https://react-simple-web-1.web.app'},
         {id: 6, title: 'Create personal portfolio using react', url: '/portfolio.PNG', github: 'https://github.com/rymnd08/rymnd-portfolio', live: ''},
     ]
