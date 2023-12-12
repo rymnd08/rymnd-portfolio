@@ -14,6 +14,7 @@ const Skills  = () => {
         {id: 6, name: 'Bootstrap', imgURL: 'https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png'},
         {id: 7, name: 'PHP', imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png'},
         {id: 8, name: 'MySQL', imgURL: 'https://icons-for-free.com/iconfiles/png/512/logo+my+query+server+sql+icon-1320184811372606623.png'},
+        {id: 13, name: 'mongoDB', imgURL: 'https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png'},
         {id: 9, name: 'HTML', imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png'},
         {id: 10, name: 'CSS', imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png'},
         {id: 11, name: 'Git', imgURL: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png'},

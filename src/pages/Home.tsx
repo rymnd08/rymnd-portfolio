@@ -18,6 +18,7 @@ const Home = () => {
                 <Projects />
 
                 <AboutMe />
+                
             </div>
             
         </div>
