@@ -7,9 +7,11 @@ import Main from "../components/Main";
 const Home = () => {
 
     return ( 
-        <div className="wrapper bg-dark min-h-screen w-full flex justify-center text-slate-300 ">
+        <div className="bg-dark text-slate-300 flex justify-center overflow-hidden">
+            
             <Navbar />
-            <div className="max-w-5xl ">
+
+            <div className="max-w-5xl">
                 
                 <Main />
 

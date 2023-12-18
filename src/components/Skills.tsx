@@ -23,17 +23,17 @@ const Skills  = () => {
 
     return ( 
         <div className="mt-20 min-h-screen border border-transparent px-4 lg:px-0" id="skills">
-            <h3 className="text-3xl font-bold text-white mb-10 lg:mb-0  mt-20">
+            <h3 className="text-3xl font-bold text-white mb-10 lg:mb-0 mt-20">
                 Skills
             </h3>
-            <div className="grid grid-cols-2 lg:grid-cols-3 lg:min-h-[75vh] place-content-center gap-4 lg:gap-10 ">
+            <div className="grid grid-cols-2 lg:grid-cols-3 lg:min-h-[calc(100vh-200px)] place-content-center gap-4 ">
                 
                 {skills.map(skill => (
                     <div key={skill.id} className=" rounded flex items-center gap-4 hover:text-white hover:cursor-pointer hover:scale-110 transition ease duration-[200ms] hover:font-bold">
-                        <div className=" w-[75px] h-[75px] lg:w-[100px] lg:h-[100px] " >
+                        <div className=" w-[50px] h-[50px] lg:w-[75px] lg:h-[75px] " >
                             <img src={skill.imgURL} alt="" className={`object-contain h-full w-full rounded`} />
                         </div>
-                        <h3 className="text-xl"> {skill.name} </h3>
+                        <h3 className="md:text-lg lg:text-xl"> {skill.name} </h3>
                     </div>
                 ))}
             </div>
